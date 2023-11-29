@@ -6,7 +6,7 @@ buttons.forEach(button =>{
     button.addEventListener('click',distoinput);
      else if( button.innerText=='AC')
      button.addEventListener('click', ()=>{
-      input.innerText=null;
+      input.innerText='0';
     })
 })
 function distoinput(e){
